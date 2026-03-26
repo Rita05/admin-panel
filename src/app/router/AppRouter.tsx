@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { LoginPage } from '../../pages/auth/ui/LoginPage'
 import { NotFoundPage } from '../../pages/not-found/ui/NotFoundPage'
 import { ProductsPage } from '../../pages/products/ui/ProductsPage'
@@ -12,7 +12,7 @@ export const PATH = {
 
 export const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<Navigate to={PATH.LOGIN} replace />} />
         <Route element={<PublicRoute />}>
@@ -23,6 +23,6 @@ export const AppRouter = () => {
         </Route>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </BrowserRouter>
+      </HashRouter>
   )
 }
