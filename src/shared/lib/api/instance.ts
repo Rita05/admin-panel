@@ -16,11 +16,23 @@ api.interceptors.request.use(config => {
 api.interceptors.response.use(
   res => res,
   async error => {
-    if (error.response?.status === 401) {
-      const newToken = await refreshToken()
-      error.config.headers['Authorization'] = `Bearer ${newToken}`
-      return axios(error.config) 
+    const originalRequest = error.config
+
+    if (error.response?.status === 401 && !originalRequest._retry) {
+      originalRequest._retry = true
+
+      try {
+        const newToken = await refreshToken()
+
+        if (newToken && originalRequest.headers) {
+          originalRequest.headers['Authorization'] = `Bearer ${newToken}`
+          return api(originalRequest)
+        }
+      } catch (refreshError) {
+        return Promise.reject(refreshError)
+      }
     }
+
     return Promise.reject(error)
   }
 )
