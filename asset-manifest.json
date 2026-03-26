@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/admin-panel/static/css/main.c52b7f3d.css",
+    "main.js": "/admin-panel/static/js/main.d3c62678.js",
+    "static/js/453.22adb5d9.chunk.js": "/admin-panel/static/js/453.22adb5d9.chunk.js",
+    "static/media/Inter-SemiBold.eot": "/admin-panel/static/media/Inter-SemiBold.53d6af3e288a63d752aa.eot",
+    "static/media/Inter-Medium.eot": "/admin-panel/static/media/Inter-Medium.1ccf365d329dd4cf075e.eot",
+    "static/media/Inter-Regular.eot": "/admin-panel/static/media/Inter-Regular.70261df07dfb5374a6f0.eot",
+    "static/media/Inter-SemiBold.ttf": "/admin-panel/static/media/Inter-SemiBold.813c2e4936aa04a094e7.ttf",
+    "static/media/Inter-Medium.ttf": "/admin-panel/static/media/Inter-Medium.c51b145d8cf66a74cc74.ttf",
+    "static/media/Inter-Regular.ttf": "/admin-panel/static/media/Inter-Regular.86c330c66f7333ff6202.ttf",
+    "static/media/OpenSans-Bold.eot": "/admin-panel/static/media/OpenSans-Bold.bc3cb125ba1e142d0fc0.eot",
+    "static/media/OpenSans-Bold.ttf": "/admin-panel/static/media/OpenSans-Bold.c51026488a9325ade145.ttf",
+    "static/media/Inter-SemiBold.woff2": "/admin-panel/static/media/Inter-SemiBold.edde2a8f185083b2254d.woff2",
+    "static/media/Inter-Medium.woff2": "/admin-panel/static/media/Inter-Medium.8af92b78d3230d136977.woff2",
+    "static/media/Inter-Regular.woff2": "/admin-panel/static/media/Inter-Regular.ae36ce6256b2f73fb4e1.woff2",
+    "static/media/Cairo-SemiBold.eot": "/admin-panel/static/media/Cairo-SemiBold.c9e8fc2ce5fa7f61db6e.eot",
+    "static/media/Cairo-SemiBold.ttf": "/admin-panel/static/media/Cairo-SemiBold.f7e55e47db10ba135327.ttf",
+    "static/media/RobotoMono-Regular.eot": "/admin-panel/static/media/RobotoMono-Regular.7cdb3914343927149ee7.eot",
+    "static/media/RobotoMono-Regular.ttf": "/admin-panel/static/media/RobotoMono-Regular.154dd521c9b4f99836af.ttf",
+    "static/media/OpenSans-Bold.woff2": "/admin-panel/static/media/OpenSans-Bold.a389c175064b7af1e818.woff2",
+    "static/media/RobotoMono-Regular.woff2": "/admin-panel/static/media/RobotoMono-Regular.bd1c68f64634176b9833.woff2",
+    "static/media/Cairo-SemiBold.woff2": "/admin-panel/static/media/Cairo-SemiBold.136d5f3df8b3cebba8b1.woff2",
+    "static/media/sound.svg": "/admin-panel/static/media/sound.09a262334a75da2b0ffb6f0aafb1503f.svg",
+    "static/media/PlusCircle.svg": "/admin-panel/static/media/PlusCircle.93a1ba17865f7d3aedba761734c83b1b.svg",
+    "static/media/arrows.svg": "/admin-panel/static/media/arrows.5796b2931456b444a4214f0c499d2fe2.svg",
+    "static/media/lock.svg": "/admin-panel/static/media/lock.4b53b9b2ab4a071e75c150c78a5f09b4.svg",
+    "index.html": "/admin-panel/index.html",
+    "static/media/search.svg": "/admin-panel/static/media/search.fcf1e18a498e9bbb52225a9e558ccce5.svg",
+    "static/media/user.svg": "/admin-panel/static/media/user.b12585cace45db7bd9929af0696fb13f.svg",
+    "static/media/cross.svg": "/admin-panel/static/media/cross.49b0203264918d5724cde718673b6cc3.svg",
+    "main.c52b7f3d.css.map": "/admin-panel/static/css/main.c52b7f3d.css.map",
+    "main.d3c62678.js.map": "/admin-panel/static/js/main.d3c62678.js.map",
+    "453.22adb5d9.chunk.js.map": "/admin-panel/static/js/453.22adb5d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c52b7f3d.css",
+    "static/js/main.d3c62678.js"
+  ]
+}
